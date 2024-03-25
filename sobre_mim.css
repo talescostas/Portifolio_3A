@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    background: #001d38;
+  font-family: "Poppins", sans-serif;
+  
+  
+}
+
+/* Cabeçalho */
+.cabecalho {
+    width: 100%;/*tamanho do cabeçalho*/
+    font-family: Arial, Helvetica, sans-serif;/*letra do cabeçalho*/
+    display: flex;/*fipo do display   "Flexivel"*/
+    justify-content: space-around;/*deixa os elementos divididos de forma central*/
+    position: fixed;/*posição absolute*/
+    top: 0%;/*serve para deixar o cabeçalho em cima*/
+    padding: 0px;/*margem interna do cabeçalho de 15px*/
+    font-size: 20px;/*tamanho da letra*/
+    color: white;/*cor da letra*/
+    background-color: black;/*cor de fundo*/
+    text-align: center;/*texto alinhado no centro*/
+}
+
+.cabecalho__marca__logo {
+    width: 104px;
+height: 104px;
+    /*bordar da imagem tamanho da espessura estado e cor*/
+margin-left: 0%;
+border-radius: 50%;
+}
+
+.cabecalho__marca__nome {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.cabecalho__menu {
+    margin-top: 30px;
+}
+
+.cabecalho__menu__link {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #F6F6F6;
+    padding: 21px 20px;
+    border-radius: 25px;
+    margin: 0px 15px;
+    transition: color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+    color: white;
+}
+
+
+/* SOBRE MIM */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box-area {
+    background-color: #FFFFFF;
+    width: 800px; 
+    margin-top: 5%;
+    border: 2px solid white; 
+    border-radius: 30px; 
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 20px 20px 30px rgba(43, 71, 230, 0.1);
+}
+
+.imagem {
+    width: 250px; 
+    height: 300px; 
+	margin:auto;
+
+}
+.imagem img {
+    width: 90%; 
+    height: 100%; 
+    border-radius: 25%; 
+}
+
+.box-area h3 {
+    color: black; 
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+}
+
+.box-area p {
+    color: black; 
+    font-size: 1.1rem; 
+}
+
+.rodape{
+	background-color: black;
+	color: white;
+	display: flex;
+	height: 10rem;
+	}
+	
+
+	.links__redes {
+		margin-top: 0px;
+		margin-left: 37%;
+	}
+	
+	.links__redes__titulo {
+		font-family: 'Russo One', sans-serif;
+		font-size: 1.5rem;
+		color: #FFFFFF;
+		margin-bottom: 10px;
+	}
+	
+	.links__redes__navegar {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: #FFFFFF;
+		border: 2px solid white;
+		padding: 21px 3px;
+		border-radius: 13px;
+		text-decoration: none;
+		display:inline;
+		margin-right: 10px;
+		text-align: center;
+		
+	}
+	
+	.links__redes__imagem {
+		width: 45px;
+		margin-bottom: -10px;
+		border-radius: 50%;
+	
+	}
+	.links__redes__navegar {
+		color: white;
+		border-radius: 15px;
+		transition: color 0.3s ease;
+	}
+	
